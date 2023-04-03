@@ -20,4 +20,15 @@ predicate
 Predicate<?super User> predicate = user -> user.getId() == id;
 users.removeIf(predicate);            
 ```
+
+2. UX in response api to user by if user create api by return Response http status and location path in header.
+
+```
+    @PostMapping("/user")
+    public ResponseEntity<User> saveUser(@RequestBody User user){
+        userDAO.saveUser(user);
+        URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(user.getId()).toUri();
+        return ResponseEntity.created(location).build();
+    }
+```
             
