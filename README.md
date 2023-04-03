@@ -1,7 +1,6 @@
 ﻿# masterSpringboot
-            ------------------------------------------------------------------------------------------------------
  
- * how to find or delete one value or relaled 
+  how to find or delete one value or relaled 
   if normal code use loop for list value by loop use duplicate check 
   but new pactice is predicate by predicate is filter not loop for find value 
   Exam 
@@ -21,4 +20,3 @@ predicate
             users.removeIf(predicate);
             
             
-            ------------------------------------------------------------------------------------------------------
