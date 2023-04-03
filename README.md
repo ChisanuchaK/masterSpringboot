@@ -6,18 +6,19 @@
   
   Exam 
   loop
-               for ( Iterator<User> userIterator = users.iterator(); userIterator.hasNext();){
+      ```
+        for ( Iterator<User> userIterator = users.iterator(); userIterator.hasNext();){
                User user = userIterator.next();
                if(user.getId() == id){
                     userIterator.remove();
                     break;
                }
            }
-           
+         ```  
 predicate
 
-
+```
             Predicate<?super User> predicate = user -> user.getId() == id;
             users.removeIf(predicate);
-            
+     ```       
             
