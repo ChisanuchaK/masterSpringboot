@@ -17,8 +17,7 @@
          ```  
 predicate
 
-```
             Predicate<?super User> predicate = user -> user.getId() == id;
             users.removeIf(predicate);
-     ```       
+          
             
