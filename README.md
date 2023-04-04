@@ -42,4 +42,9 @@ users.removeIf(predicate);
 	<version>2.0.0</version>
 </dependency>
  ```
+ when install re maven and open url
+ 
+ ```
+ http://localhost:8080/swagger-ui/index.html
+ ```
             
