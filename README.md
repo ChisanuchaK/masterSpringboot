@@ -47,4 +47,16 @@ users.removeIf(predicate);
  ```
  http://localhost:8080/swagger-ui/index.html
  ```
-            
+ 
+ ## if employee need format data default is json but if need xml mush add depedency
+ ```
+ <dependency>
+   <groupId>org.springdoc</groupId>
+   <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+   <version>2.0.0</version>
+</dependency>
+```
+
+and add parameter  
+![image](https://user-images.githubusercontent.com/97660202/229691634-6c2e3e86-0749-4751-bdf8-bbce2443f3a2.png)
+
