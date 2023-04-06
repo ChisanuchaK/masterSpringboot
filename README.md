@@ -60,3 +60,32 @@ users.removeIf(predicate);
 and add parameter  
 ![image](https://user-images.githubusercontent.com/97660202/229691634-6c2e3e86-0749-4751-bdf8-bbce2443f3a2.png)
 
+## hateoas 
+	hateoas is config identify link api for ux give easy understand
+	
+```
+	<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-hateoas</artifactId>
+		</dependency>
+
+```
+
+Exam code
+
+```
+    @GetMapping(path = "user/hateoas/{id}")
+    public EntityModel<User> userEntityModelPerson1(@PathVariable int id) {
+        EntityModel entityModel = EntityModel.of( userDAO.findOneUser(id));
+        WebMvcLinkBuilder linkFindAllUser = WebMvcLinkBuilder.linkTo(WebMvcLinkBuilder.methodOn(this.getClass()).findALlUser());
+        WebMvcLinkBuilder linkHelloBean = WebMvcLinkBuilder.linkTo(WebMvcLinkBuilder.methodOn(this.getClass()).HelloBean());
+        WebMvcLinkBuilder linkDeleteMyUser = WebMvcLinkBuilder.linkTo(WebMvcLinkBuilder.methodOn(this.getClass()).deleteUser(id));
+
+        entityModel.add( linkFindAllUser.withRel("all-user").withTitle("title all users") , linkHelloBean.withRel("hello-bean") , linkDeleteMyUser.withRel("delete-user").withTitle("delete user") );
+        return entityModel;
+    }
+    ```
+    ![image](https://user-images.githubusercontent.com/97660202/230371561-81d54b8a-83ef-4473-901f-a9d64275f0eb.png)
+
+    
+
