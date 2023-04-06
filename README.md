@@ -1,4 +1,4 @@
-﻿# masterSpringboot
+﻿# Master Springboot. My lecture 😉
  
   1. how to find or delete one value or relaled 
   if normal code use loop for list value by loop use duplicate check 
