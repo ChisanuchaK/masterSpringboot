@@ -84,8 +84,10 @@ Exam code
         entityModel.add( linkFindAllUser.withRel("all-user").withTitle("title all users") , linkHelloBean.withRel("hello-bean") , linkDeleteMyUser.withRel("delete-user").withTitle("delete user") );
         return entityModel;
     }
-    ```
-    ![image](https://user-images.githubusercontent.com/97660202/230371561-81d54b8a-83ef-4473-901f-a9d64275f0eb.png)
+```
+
+![image](https://user-images.githubusercontent.com/97660202/230371815-c4aa6e44-7a28-4b63-b1f8-0715d8c6db30.png)
+
 
     
 
