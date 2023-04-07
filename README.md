@@ -138,6 +138,32 @@ link http://localhost:8080/explorer/index.html#
 ![image](https://user-images.githubusercontent.com/97660202/230557427-6b2c6ae8-1d46-4e47-a0dc-625a040484dd.png)
 
 
+## spring boot basic security 
+	- when run program will be login interface give username and password
+
+```
+<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+```
+
+if not config in application property 
+ - default username is user 
+ - default password is terminal
+ ![image](https://user-images.githubusercontent.com/97660202/230560860-74796672-9b06-4eeb-a8e1-a87aa379ce94.png)
+
+but if config in application property 
+```
+spring.security.user.name= admin
+spring.security.user.password= admin
+```
+ - user and password is that config in application property.
+
+![image](https://user-images.githubusercontent.com/97660202/230561482-3e0b5297-1fe7-4527-90ac-cf37d6194131.png)
+
+
+
 
 
 
