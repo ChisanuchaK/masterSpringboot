@@ -93,3 +93,10 @@ Exam code
 static filterinig is config output json ? so static filtering use json ignore (level attribute) and json ignore property (level class)
  - json property is rename key name of the coloum.
 
+![image](https://user-images.githubusercontent.com/97660202/230543522-c9dbcf3e-c884-4fb0-aac3-77094f0b5cd0.png)
+![image](https://user-images.githubusercontent.com/97660202/230543559-978df6a2-73ee-4799-90a4-949871f2273e.png)
+![image](https://user-images.githubusercontent.com/97660202/230543599-7c5c7ea7-d097-42d5-a7ff-4f2da169030d.png)
+
+
+
+
