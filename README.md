@@ -105,7 +105,7 @@ Dynamic filter (Json filter)
 ![image](https://user-images.githubusercontent.com/97660202/230551794-bffd4e97-64b7-4f44-9b5b-15e47b908105.png)
 
 
-## Monitor API by actuator
+## Monitor API by actuator (http://localhost:8080/actuator)
 
 ```
 		<dependency>
