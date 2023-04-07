@@ -60,7 +60,7 @@ users.removeIf(predicate);
 and add parameter  
 ![image](https://user-images.githubusercontent.com/97660202/229691634-6c2e3e86-0749-4751-bdf8-bbce2443f3a2.png)
 
-## hateoas 
+## hateoas (HAL Hyper Application Language)
 	hateoas is config identify link api for ux give easy understand
 	
 ```
