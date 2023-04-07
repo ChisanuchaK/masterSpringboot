@@ -122,6 +122,23 @@ management.endpoints.web.exposure.include=*
 ![image](https://user-images.githubusercontent.com/97660202/230554188-c76e417a-fd8c-4cc2-afd4-40f4dd2b9751.png)
 
 
+## Hal Explorer 
+ - it is UI of API by easy using and same swagger but easy more that swagger
+ - but explorer use for see link if use hateoas config link for user understance that what can use api ?
+Solution install Hal Explorer 
+
+```
+<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-rest-hal-explorer</artifactId>
+		</dependency>
+```
+link http://localhost:8080/explorer/index.html#
+
+![image](https://user-images.githubusercontent.com/97660202/230557427-6b2c6ae8-1d46-4e47-a0dc-625a040484dd.png)
+
+
+
 
 
 
