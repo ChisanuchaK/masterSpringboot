@@ -142,7 +142,7 @@ link http://localhost:8080/explorer/index.html#
 
 
 ## spring boot basic security 
-	- when run program will be login interface give username and password
+ when run program will be login interface give username and password
 
 ```
 <dependency>
