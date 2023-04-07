@@ -58,7 +58,10 @@ users.removeIf(predicate);
 ```
 
 and add parameter  
+
+
 ![image](https://user-images.githubusercontent.com/97660202/229691634-6c2e3e86-0749-4751-bdf8-bbce2443f3a2.png)
+
 
 ## hateoas (HAL Hyper Application Language)
 	hateoas is config identify link api for ux give easy understand
@@ -151,7 +154,8 @@ link http://localhost:8080/explorer/index.html#
 if not config in application property 
  - default username is user 
  - default password is terminal
- ![image](https://user-images.githubusercontent.com/97660202/230560860-74796672-9b06-4eeb-a8e1-a87aa379ce94.png)
+
+![image](https://user-images.githubusercontent.com/97660202/230560860-74796672-9b06-4eeb-a8e1-a87aa379ce94.png)
 
 but if config in application property 
 ```
