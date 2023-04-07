@@ -97,6 +97,14 @@ static filterinig is config output json ? so static filtering use json ignore (l
 ![image](https://user-images.githubusercontent.com/97660202/230543559-978df6a2-73ee-4799-90a4-949871f2273e.png)
 ![image](https://user-images.githubusercontent.com/97660202/230543599-7c5c7ea7-d097-42d5-a7ff-4f2da169030d.png)
 
+Dynamic filter (Json filter)
+-	Mapping json by use service is parameter 
+-	Filter provider config by key json filter and filter json parameter 
+-	Filter provider have 3 type is filter out except , serialize except and serialize all
+![image](https://user-images.githubusercontent.com/97660202/230551766-5a835e58-8fed-44ea-ab5a-1d515010edeb.png)
+![image](https://user-images.githubusercontent.com/97660202/230551794-bffd4e97-64b7-4f44-9b5b-15e47b908105.png)
+
+
 
 
 
