@@ -90,6 +90,6 @@ Exam code
 
 
 ## Filtering have 2 type is staic and dynamic filtering 
-	### static filterinig is config output json ? so static filtering use json ignore (level attribute) and json ignore property (level class)
-		- json property is rename key name of the coloum.
+static filterinig is config output json ? so static filtering use json ignore (level attribute) and json ignore property (level class)
+ - json property is rename key name of the coloum.
 
