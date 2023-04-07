@@ -89,5 +89,7 @@ Exam code
 ![image](https://user-images.githubusercontent.com/97660202/230371815-c4aa6e44-7a28-4b63-b1f8-0715d8c6db30.png)
 
 
-    
+## Filtering have 2 type is staic and dynamic filtering 
+	*static filterinig is config output json ? so static filtering use json ignore (level attribute) and json ignore property (level class)
+		- json property is rename key name of the coloum.
 
