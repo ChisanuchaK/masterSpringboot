@@ -105,6 +105,23 @@ Dynamic filter (Json filter)
 ![image](https://user-images.githubusercontent.com/97660202/230551794-bffd4e97-64b7-4f44-9b5b-15e47b908105.png)
 
 
+## Monitor API by actuator
+
+```
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+```
+
+if want unlock all api insert my code in application.property
+```
+management.endpoints.web.exposure.include=*  
+```
+
+![image](https://user-images.githubusercontent.com/97660202/230554188-c76e417a-fd8c-4cc2-afd4-40f4dd2b9751.png)
+
+
 
 
 
